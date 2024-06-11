@@ -1,0 +1,77 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+}
+/* Conteneur principal */
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 20px;
+}
+ 
+
+/* Titre principal */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Conteneur météo */
+#weather {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#weather p {
+    margin: 10px 0;
+}
+
+/* Bouton de rafraîchissement */
+#refresh-btn {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#refresh-btn:hover {
+    background-color: #005bb5;
+}
+
+
+/* Requêtes multimédias pour réactivité */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+    
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #weather {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
